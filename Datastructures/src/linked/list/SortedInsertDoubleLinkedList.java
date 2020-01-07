@@ -11,28 +11,26 @@ public class SortedInsertDoubleLinkedList {
         DoublyLinkedListNode node = head;
         DoublyLinkedListNode newNode = new DoublyLinkedListNode(data);
 
-        if (data < head.data) {
+        if (data <= head.data) {
             newNode.next = head;
-            head = newNode;
-            return head;
+            head.prev = newNode;
+            return newNode;
         }
 
-        node = node.next;
-
-        while (node != null) {
-            if (data >= node.data && node.next == null) {
-                newNode.prev = node;
-                node.next = newNode;
-                break;
-            } else if (data >= node.data && data < node.next.data) {
+        while (node.next != null) {
+            if (data > node.data && data <= node.next.data) {
                 newNode.prev = node;
                 newNode.next = node.next;
                 node.next = newNode;
-                break;
+                node.next.prev = newNode;
+                return head;
             }
 
             node = node.next;
         }
+
+        newNode.prev = node;
+        node.next = newNode;
 
         return head;
     }
