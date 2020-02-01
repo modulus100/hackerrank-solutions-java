@@ -16,10 +16,10 @@ public class MaximumElement {
                 int value = in.nextInt();
                 stack.add(value);
                 container.add(value);
-            } else if (flag == 2) {
+            } else if (flag == 2 && !container.isEmpty()) {
                 int value = (int) stack.pop();
                 container.remove(value);
-            } else if (flag == 3) {
+            } else if (flag == 3 && !container.isEmpty()) {
                 int value = (int) container.peek();
                 System.out.println(value);
             }
