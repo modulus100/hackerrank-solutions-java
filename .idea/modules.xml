@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Datastructures/Datastructures.iml" filepath="$PROJECT_DIR$/Datastructures/Datastructures.iml" />
       <module fileurl="file://$PROJECT_DIR$/FraudulentActivityNotifications/FraudulentActivityNotifications.iml" filepath="$PROJECT_DIR$/FraudulentActivityNotifications/FraudulentActivityNotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterviewPreparationKit/InterviewPreparationKit.iml" filepath="$PROJECT_DIR$/InterviewPreparationKit/InterviewPreparationKit.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
       <module fileurl="file://$PROJECT_DIR$/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank.iml" />
     </modules>
   </component>
