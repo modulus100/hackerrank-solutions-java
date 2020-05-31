@@ -11,10 +11,10 @@ public class PlusMinus {
         int positive = 0;
         int zero = 0;
 
-        for (int i = 0; i < arr.length; i++) {
-            if (arr[i] == 0) {
+        for (int value : arr) {
+            if (value == 0) {
                 zero++;
-            } else if (arr[i] > 0) {
+            } else if (value > 0) {
                 positive++;
             } else {
                 negative++;
