@@ -3,6 +3,7 @@ package dictionaries.and.hashmaps;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class FrequencyQueries {
 
@@ -58,7 +59,7 @@ public class FrequencyQueries {
         return result;
     }
 
-    static void incrementFreqCount(HashMap<Integer, Integer> map, int value) {
+    static void incrementFreqCount(Map<Integer, Integer> map, int value) {
         if (map.containsKey(value)) {
             map.put(value, map.get(value) + 1);
         } else {
@@ -66,7 +67,7 @@ public class FrequencyQueries {
         }
     }
 
-    static void decrementFreqCount(HashMap<Integer, Integer> map, int value) {
+    static void decrementFreqCount(Map<Integer, Integer> map, int value) {
         if (map.containsKey(value)) {
             int count = map.get(value);
 
