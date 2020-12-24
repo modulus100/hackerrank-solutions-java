@@ -70,10 +70,10 @@ public class FrequencyQueries {
         if (map.containsKey(value)) {
             int count = map.get(value);
 
-            if (count > 1) {
-                map.put(value, count - 1);
-            } else if (count == 1) {
+            if (count == 1) {
                 map.remove(value);
+            } else {
+                map.put(value, count - 1);
             }
         }
     }
