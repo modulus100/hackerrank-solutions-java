@@ -98,14 +98,14 @@ fun getMaxNode(right: Node, left: Node, crossing: Node): Node {
     val newSubSeqSum = deliverySum + subSeqSum
 
     if (right.totalSum == maxSum) {
-        return Node(right.totalSum, newSubSeqSum, false, true)
+        return Node(right.totalSum, newSubSeqSum, isLeaf = false, deliveryNode = true)
     }
 
     if (left.totalSum == maxSum) {
-        return Node(left.totalSum, newSubSeqSum, false, true)
+        return Node(left.totalSum, newSubSeqSum, isLeaf = false, deliveryNode = true)
     }
 
-    return Node(crossing.totalSum, newSubSeqSum, false, true)
+    return Node(crossing.totalSum, newSubSeqSum, isLeaf = false, deliveryNode = true)
 }
 
 fun maxSubarrayRecursive(arr: Array<Int>, start: Int, stop: Int): Node {
