@@ -14,5 +14,5 @@ fun minimumAbsoluteDifference(arr: Array<Int>): Int {
         minAbs = minAbs.coerceAtMost(abs(arr[i] - arr[i + 1]))
     }
 
-    return minAbs;
+    return minAbs
 }

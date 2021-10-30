@@ -81,7 +81,7 @@ public class Solution {
     }
 
     public static void main(String[] args)  {
-        int expenditure[] = {2, 3, 4, 2, 3, 6, 8, 4, 5, 2, 3, 4, 2, 3, 6, 8, 4, 5};
+        int[] expenditure = {2, 3, 4, 2, 3, 6, 8, 4, 5, 2, 3, 4, 2, 3, 6, 8, 4, 5};
         int result = activityNotifications(expenditure, 5);
 
         System.out.println(result);

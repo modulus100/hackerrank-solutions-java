@@ -27,7 +27,7 @@ public class MinimumSwaps2 {
         return numOfSwaps;
     }
 
-    static int findLeftIndex(int start, int value, int arr[]) {
+    static int findLeftIndex(int start, int value, int[] arr) {
         for (int i = start; i > 0; i--) {
             if (arr[i] == value) {
                 return i;
@@ -37,13 +37,13 @@ public class MinimumSwaps2 {
         return 0;
     }
 
-    static void swap(int first, int second, int arr[]) {
+    static void swap(int first, int second, int[] arr) {
         int temp = arr[first];
         arr[first] = arr[second];
         arr[second] = temp;
     }
 
-    static int findRightIndex(int start, int value, int arr[]) {
+    static int findRightIndex(int start, int value, int[] arr) {
         for (int i = start; i < arr.length; i++) {
             if (arr[i] == value) {
                 return i;

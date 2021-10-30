@@ -5,7 +5,7 @@ public class RepeatedString {
     static long repeatedString(String s, long n) {
         long count = 0;
         long remainderCount = 0;
-        long numOfRepeatedStrings = (long) (n / s.length());
+        long numOfRepeatedStrings = n / s.length();
 
         // in string
         for (char currentChar : s.toCharArray()) {

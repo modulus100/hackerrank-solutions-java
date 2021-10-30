@@ -4,10 +4,10 @@ import java.util.Arrays;
 
 public class MagicSquare {
 
-    private static int[] first = new int[] {0, 0};
-    private static int[] second = new int[] {0, 2};
-    private static int[] third = new int[] {2, 2};
-    private static int[] fourth = new int[] {2, 0};
+    private static final int[] first = new int[] {0, 0};
+    private static final int[] second = new int[] {0, 2};
+    private static final int[] third = new int[] {2, 2};
+    private static final int[] fourth = new int[] {2, 0};
 
     public static class FindEdgeResult  {
         int firstMath;

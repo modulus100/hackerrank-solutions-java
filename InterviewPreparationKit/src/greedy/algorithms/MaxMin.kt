@@ -24,5 +24,5 @@ fun maxMin(k: Int, arr: Array<Int>): Int {
         }
     }
 
-    return min;
+    return min
 }

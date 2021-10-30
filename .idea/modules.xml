@@ -7,6 +7,7 @@
       <module fileurl="file://$PROJECT_DIR$/FraudulentActivityNotifications/FraudulentActivityNotifications.iml" filepath="$PROJECT_DIR$/FraudulentActivityNotifications/FraudulentActivityNotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterviewPreparationKit/InterviewPreparationKit.iml" filepath="$PROJECT_DIR$/InterviewPreparationKit/InterviewPreparationKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/LeetCode/LeetCode.iml" filepath="$PROJECT_DIR$/LeetCode/LeetCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Playground/Playground.iml" filepath="$PROJECT_DIR$/Playground/Playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank.iml" />
     </modules>
   </component>

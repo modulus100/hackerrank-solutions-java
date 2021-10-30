@@ -6,7 +6,7 @@ public class IceCreamParlor {
 
     static int[] icecreamParlor(int m, int[] arr) {
         HashMap<Integer, Integer> map = new HashMap<>();
-        int empty[] = {};
+        int[] empty = {};
 
         for (int i = 0; i < arr.length; i++) {
             if (map.containsKey(arr[i])) {

@@ -16,7 +16,7 @@ fun whatFlavors(cost: Array<Int>, money: Int): Unit {
             println("$firstIndex $secondIndex")
             return
         } else {
-            costMap[element] = index;
+            costMap[element] = index
         }
     }
 }

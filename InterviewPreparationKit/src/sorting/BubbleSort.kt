@@ -9,8 +9,8 @@ fun countSwaps(a: Array<Int>): Unit {
             if (a[j] > a[j + 1]) {
                 swapCount++
                 run {
-                    val temp = a[j];
-                    a[j] = a[j + 1];
+                    val temp = a[j]
+                    a[j] = a[j + 1]
                     a[j + 1] = temp
                 }
             }
