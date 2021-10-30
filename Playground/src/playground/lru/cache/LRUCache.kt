@@ -30,8 +30,8 @@ class LRUCache<K, V>(private val maxSize: Int) : Cache<K, V> {
     }
 
     override operator fun set(key: K, value: V) {
-        if (head == cache[key]) {
-            initFirst(key, value)
+        if (cache.size == 1) {
+            setHead(key, value)
         } else if (cache.containsKey(key)) {
             moveKeyToHead(key, value)
         } else if (cache.size == maxSize) {
@@ -48,7 +48,7 @@ class LRUCache<K, V>(private val maxSize: Int) : Cache<K, V> {
         cache[key] = head!!
     }
 
-    private fun initFirst(key: K, value: V) {
+    private fun setHead(key: K, value: V) {
         cache.clear()
         cache[key] = Node(key, value)
         head = cache[key]
