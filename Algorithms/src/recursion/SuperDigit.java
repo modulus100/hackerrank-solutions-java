@@ -25,4 +25,16 @@ public class SuperDigit {
 
         return Character.getNumericValue(number.charAt(0));
     }
+
+    static int superDigit3(String n, int k) {
+        if (n.length() > 1) {
+            var sum = Arrays.stream(n.split(""))
+                    .map(Long::parseLong)
+                    .reduce(0L, Long::sum);
+
+            return superDigit3(Long.toString(sum * k), 1);
+        }
+
+        return Character.getNumericValue(n.charAt(0));
+    }
 }
