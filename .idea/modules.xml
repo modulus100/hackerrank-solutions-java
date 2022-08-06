@@ -4,7 +4,6 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Algorithms/Algorithms.iml" filepath="$PROJECT_DIR$/Algorithms/Algorithms.iml" />
       <module fileurl="file://$PROJECT_DIR$/Datastructures/Datastructures.iml" filepath="$PROJECT_DIR$/Datastructures/Datastructures.iml" />
-      <module fileurl="file://$PROJECT_DIR$/FraudulentActivityNotifications/FraudulentActivityNotifications.iml" filepath="$PROJECT_DIR$/FraudulentActivityNotifications/FraudulentActivityNotifications.iml" />
       <module fileurl="file://$PROJECT_DIR$/InterviewPreparationKit/InterviewPreparationKit.iml" filepath="$PROJECT_DIR$/InterviewPreparationKit/InterviewPreparationKit.iml" />
       <module fileurl="file://$PROJECT_DIR$/Playground/Playground.iml" filepath="$PROJECT_DIR$/Playground/Playground.iml" />
       <module fileurl="file://$PROJECT_DIR$/hackerrank.iml" filepath="$PROJECT_DIR$/hackerrank.iml" />
